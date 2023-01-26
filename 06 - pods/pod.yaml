@@ -4,7 +4,7 @@ metadata:
   name: myapp
 spec:
   containers:
-    - name: myapp_frontend_cn
+    - name: nginx-cn
       image: nginx
       resources:
         limits:
