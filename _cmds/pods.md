@@ -11,3 +11,15 @@ to get all pods
 ```bash
     kubectl get pods
 ``` 
+
+delete a pod
+
+```bash
+    kubectl delete pod <pod-name>
+```
+
+create a pod from yaml
+
+```bash
+    kubectl create -f <file-name>
+```
